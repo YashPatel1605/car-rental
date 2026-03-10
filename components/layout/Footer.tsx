@@ -115,7 +115,7 @@ export default function Footer() {
 						<div className="space-y-4">
 							{/* Apple Store */}
 							<button className="bg-[#0E1630] px-5 py-4 rounded-xl w-full flex items-center gap-4 hover:bg-[#121b3a] transition">
-								<Image src="/icons/apple.png" alt="Apple Store" width={28} height={28} />
+								<Image src="/icons/apple1.png" alt="Apple Store" width={28} height={28} />
 
 								<div className="text-left text-sm">
 									<p className="text-gray-400 text-xs">Download on the</p>
@@ -125,7 +125,7 @@ export default function Footer() {
 
 							{/* Google Play */}
 							<button className="bg-[#0E1630] px-5 py-4 rounded-xl w-full flex items-center gap-4 hover:bg-[#121b3a] transition">
-								<Image src="/icons/googleplay.png" alt="Google Play" width={28} height={28} />
+								<Image src="/icons/google-play.png" alt="Google Play" width={28} height={28} />
 
 								<div className="text-left text-sm">
 									<p className="text-gray-400 text-xs">Get it on</p>
@@ -138,14 +138,14 @@ export default function Footer() {
 						<div className="mt-8">
 							<h5 className="text-white mb-4">Connect With Us</h5>
 
-							<div className="flex gap-8">
-								<Image src="/icons/facebook.png" alt="Facebook" width={10} height={10} />
+							<div className="flex gap-6">
+								<Image src="/icons/facebook1.png" alt="Facebook" width={30} height={30} />
 
-								<Image src="/icons/twiter.png" alt="Twitter" width={10} height={10} />
+								<Image src="/icons/twitter1.png" alt="Twitter" width={30} height={30} />
 
-								<Image src="/icons/instragram.png" alt="Instagram" width={10} height={10} />
+								<Image src="/icons/instagram1.png" alt="Instagram" width={30} height={30} />
 
-								<Image src="/icons/linkdin.png" alt="LinkedIn" width={10} height={10} />
+								<Image src="/icons/linkedin1.png" alt="LinkedIn" width={30} height={30} />
 							</div>
 						</div>
 					</div>

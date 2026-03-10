@@ -5,7 +5,6 @@ export default function Header() {
 	return (
 		<header className="absolute top-0 w-full z-50 bg-transparent text-white border-b border-white/10">
 			<div className="container mx-auto px-4 h-20 flex items-center justify-between">
-				{/* Logo Placeholder */}
 				<Link href="/" className="flex items-center gap-2">
 					<Image
 						src="/logo.png"
@@ -17,7 +16,6 @@ export default function Header() {
 					/>
 				</Link>
 
-				{/* Navigation */}
 				<nav className="hidden md:flex items-center gap-8 text-sm font-medium">
 					<Link href="/" className="hover:text-blue-400 transition-colors">
 						Home
@@ -39,7 +37,6 @@ export default function Header() {
 					</Link>
 				</nav>
 
-				{/* Sign In Button */}
 				<div>
 					<button className="bg-white text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
 						Sign In
