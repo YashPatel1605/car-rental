@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
-import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
+import Header from '@/app/components/layout/Header'
+import Footer from '@/app/components/layout/Footer'
 import './globals.css'
+import { Toaster } from 'react-hot-toast'
 
 export const metadata: Metadata = {
 	title: 'BoxCar | Find Your Perfect Car',
@@ -15,6 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className="antialiased font-sans text-gray-900 bg-white">
 				<Header />
 				<main className="min-h-screen">{children}</main>
+				<Toaster position="top-right" />
 				<Footer />
 			</body>
 		</html>
